@@ -33,6 +33,8 @@ public class getController {
 		System.out.println(searchParam.getEmail());
 		System.out.println(searchParam.getPage());
 		
+		
+		
 		//{"account" : "", "email" : "", "page" : 0}
 		
 		return searchParam;
