@@ -1,0 +1,31 @@
+Rest API
+
+HTTP - POST Method
+
+- 주소창에 파라미터가 노출되지 않음
+
+- 주소창에 사용자의 요청사항이 노출되지 않음
+	Get방식에서는 주소길이 제한이 있지만 POST는 그보다 길게 사용가능하다(길이제한은 있음)
+	
+	브라우저가 주소 캐시를 하지 못 하는 특성이 있음
+	
+HTTP - PUT / PATCH Method
+
+- POST와 마찬가지로 BODY에 데이터가 들어 있으며, 주로 업데이트에 사용
+
+REST의 개념
+
+- HTTP 프로토콜에 있는 Method를 활용한 아키텍처 스타일
+
+- HTTP Method를 통해서 Resource를 처리
+
+- CRUD를 통한 Resource조작을 할 때 상용
+
+	HTTP Method					동작					URL형태
+GET						조회(SELECT * READ)		/user/{id}
+
+POST					생성(CREATE)				/user
+
+PUT/PATCH				수정(UPDATE) * CREATE		/user
+
+DELETE					삭제(DELETE)				/user/{1}
